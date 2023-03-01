@@ -1,28 +1,31 @@
-#Navbar {
+nav {
     display:inline-block;
     vertical-align:top;
     width:73%;
     padding:1%;
 }
-#Divlogo {
+.logo {
     width:23%;
     padding:1%;
     text-align:center;
 }
-#List {
+
+ul {
+    display:inline-block;
     width:50%;
     margin-left:auto;
 }
-#Hero {
+.heroImg {
     height:600px;
     padding:25px;
 }
-#Content {
+.content {
     width:500px;
-    margin:auto;
+    margin: 0 auto;
 }
-#Footer {
+footer {
     background-color:#373738;
+    color:white;
     padding:1%;
     text-align:center;
 }
@@ -31,4 +34,9 @@
     vertical-align:top;
     padding:1%;
     text-align:center;
+}
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
 }
